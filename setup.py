@@ -101,7 +101,7 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpython"
+PACKAGE = "libpythonpro"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Pedro Mascarenhas"

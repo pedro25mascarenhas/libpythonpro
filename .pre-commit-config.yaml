@@ -3,6 +3,6 @@ repos:
   rev: v2.5.6
   hooks:
   - id: pip-audit
-    args: ["-r", "requirements.txt"]
+    args: ["-r", "requirements-dev.txt"]
 ci:
   skip: [pip-audit]

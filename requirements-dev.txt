@@ -9,4 +9,5 @@ pluggy==1.2.0
 packaging==23.1
 iniconfig==2.0.0
 colorama==0.4.6
+
 -r requirements.txt

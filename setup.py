@@ -110,7 +110,7 @@ URL = "https://github.com/pedro25mascarenhas/libpythonpro"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
-    name=NAME,
+    name="libpythonpro-mascaped",
     version=VERSION,
     description=DESCRIPTION,
     long_description=read('README.md'),

@@ -2,5 +2,11 @@ flake8==6.0.0
 mccabe==0.7.0
 pycodestyle==2.10.0
 pyflakes==3.0.1
--r requirements.txt
 
+# Deps do pytest
+pytest==7.4.0
+pluggy==1.2.0
+packaging==23.1
+iniconfig==2.0.0
+colorama==0.4.6
+-r requirements.txt

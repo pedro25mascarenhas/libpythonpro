@@ -10,4 +10,8 @@ packaging==23.1
 iniconfig==2.0.0
 colorama==0.4.6
 
+# Coverage
+pytest-cov==4.1.0
+coverage==7.2.7
+
 -r requirements.txt

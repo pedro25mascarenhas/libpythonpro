@@ -14,4 +14,9 @@ colorama==0.4.6
 pytest-cov==4.1.0
 coverage==7.2.7
 
+# Mocker
+pytest-mock==3.11.1
+pyparsing==3.1.0
+packaging==23.1
+
 -r requirements.txt

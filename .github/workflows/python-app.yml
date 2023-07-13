@@ -34,7 +34,7 @@ jobs:
         flake8 --config=.flake8
     - name: Run tests on Pytest
       run: |
-        pytest --cov=libpythonpro
+        pipenv run pytest --cov=libpythonpro
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3

@@ -27,15 +27,13 @@ jobs:
       run: |
         pipenv sync --dev
         python -m pip install --upgrade pip
-
+        pip install -q pipenv codecov
     - name: Lint with flake8
       run: |
         pip install flake8
         flake8 --config=.flake8
     - name: Run tests on Pytest
       run: |
-        pipenv sync --dev
-        pip install -q pipenv codecov
         pytest --cov=libpythonpro
 
     - name: Upload coverage reports to Codecov
